@@ -1,0 +1,11 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<channel>
+<title>mysketchlibrary</title>
+<generator>JINGWHALE</generator>
+<item>
+<title>mysketchlibrary</title>
+<pubDate>Thu Jan 14 2021 16:35:43 GMT+0800</pubDate>
+<enclosure url="https://626f-bookshelf-0perd-1304064907.tcb.qcloud.la/image/mysketchlibrary.sketch" type="application/octet-stream" sparkle:version="1.0.0"/>
+</item>
+</channel>
+</rss>
