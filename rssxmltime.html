@@ -14,31 +14,10 @@
     </div>
     <script>
         var showtime = document.getElementById("showtime");
-
-        const weekArr = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-        const monthArr = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-        const timeZone = "GMT+0800";
-        const empty = " ";
-
         var today = new Date();
-
-        var week = weekArr[today.getDay()];
-        var month = monthArr[today.getMonth()];
-        var day = today.getDate();
-        var year = today.getFullYear();
-
-        function formatNumber(n){
-        return (n>9) ? n : ('0' + n)
-        }
-        var hour = formatNumber(today.getHours());
-        var minute = formatNumber(today.getMinutes());
-        var second =formatNumber(today.getSeconds());
-        var time = hour+":"+minute+":"+second;
-
-        var RFC822time = week + empty + month + empty + day + empty + year + empty + time + empty + timeZone;
         
-        showtime.innerHTML = RFC822time;
-        console.log("RFC822time:"+RFC822time);
+        showtime.innerHTML = today;
+        console.log(today);
     </script>
 </body>
 </html>
